@@ -64,7 +64,7 @@ La lógica de flujo se gestiona mediante JSP y JSTL.
 
 ---
 
-## 8. Requisitos para Ejecutar
+## 6. Requisitos para Ejecutar
 
 - JDK 8 o superior
 - Apache Tomcat 9.x
@@ -73,7 +73,7 @@ La lógica de flujo se gestiona mediante JSP y JSTL.
 
 ---
 
-## 9. Ejecución
+## 7. Ejecución
 
 1. Abrir el proyecto en NetBeans.
 2. Clean and Build.
@@ -86,12 +86,10 @@ http://localhost:8080/StudentWebApp-JSP/](http://localhost:8080/EjercicioArqSoft
 
 ---
 
-## 10. Conceptos Aplicados
+## 8. Imagenes de Referencia
 
-- JavaServer Pages
-- JavaBeans
-- JSTL
-- Manejo de sesión HTTP
-- Arquitectura MVC
-- Conversión dinámica JSP → Servlet
-- Separación de presentación (CSS)
+1. Ingreso de Datos.
+<img width="1048" height="500" alt="image" src="https://github.com/user-attachments/assets/d6e961e3-fdda-456f-872a-9521013e27a5" />
+
+2. Salida de Datos.
+<img width="1181" height="403" alt="image" src="https://github.com/user-attachments/assets/78e48b51-40e5-4f59-9c9e-242204b71310" />
