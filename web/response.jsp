@@ -1,0 +1,83 @@
+<%-- 
+    Document   : response
+    Created on : 27 feb 2026, 5:14:28 p. m.
+    Author     : jdgal
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+
+<%@ page import="java.time.LocalTime" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<html>
+<head>
+    <title>Respuesta</title>
+</head>
+<body>
+
+<jsp:useBean id="student"
+             class="org.mypackage.student.StudentHandler"
+             scope="session" />
+
+<jsp:setProperty name="student" property="name" />
+<jsp:setProperty name="student" property="birthDate" />
+
+<c:choose>
+
+    <c:when test="${empty param.name or empty param.birthDate}">
+        <h2 style="color:red;">
+            Error: Todos los campos son obligatorios.
+        </h2>
+
+        <br>
+
+        <a href="index.jsp">
+            <button>Regresar al formulario</button>
+        </a>
+    </c:when>
+
+    <c:otherwise>
+
+        <%
+            int hour = LocalTime.now().getHour();
+            request.setAttribute("hour", hour);
+        %>
+
+        <h1>
+        <c:choose>
+            <c:when test="${hour < 12}">
+                Buenos días
+            </c:when>
+            <c:when test="${hour < 18}">
+                Buenas tardes
+            </c:when>
+            <c:otherwise>
+                Buenas noches
+            </c:otherwise>
+        </c:choose>
+        , <jsp:getProperty name="student" property="name"/>!
+        </h1>
+
+        <p>
+            Fecha de nacimiento ingresada:
+            <jsp:getProperty name="student" property="birthDate"/>
+        </p>
+
+        <p>
+            Tu edad es:
+            <jsp:getProperty name="student" property="age"/> años.
+        </p>
+
+        <br>
+
+        <a href="index.jsp">
+            <button>Regresar al formulario</button>
+        </a>
+
+    </c:otherwise>
+
+</c:choose>
+
+</body>
+</html>
