@@ -8,25 +8,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css"
+      href="${pageContext.request.contextPath}/css/styles.css">
     <title>Formulario Estudiante</title>
 </head>
 <body>
-
-<h1>Ingreso de Datos</h1>
+<center>
+    <br><br><br><br><br><br>
+    <h1>Ingreso de Datos</h1>
 
 <form action="response.jsp" method="GET">
 
     Nombre:
+    <br>
     <input type="text" name="name" required />
     <br><br>
 
     Fecha de Nacimiento:
+    <br>
     <input type="date" name="birthDate" required />
     <br><br>
 
     <input type="submit" value="Enviar" />
 
 </form>
-
+</center>
 </body>
 </html>

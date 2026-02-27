@@ -12,10 +12,12 @@
 
 <html>
 <head>
+    <link rel="stylesheet" type="text/css"
+      href="${pageContext.request.contextPath}/css/styles.css">
     <title>Respuesta</title>
 </head>
 <body>
-
+<center>
 <jsp:useBean id="student"
              class="org.mypackage.student.StudentHandler"
              scope="session" />
@@ -43,7 +45,7 @@
             int hour = LocalTime.now().getHour();
             request.setAttribute("hour", hour);
         %>
-
+        <br><br><br><br><br>
         <h1>
         <c:choose>
             <c:when test="${hour < 12}">
@@ -78,6 +80,6 @@
     </c:otherwise>
 
 </c:choose>
-
+</center>
 </body>
 </html>
