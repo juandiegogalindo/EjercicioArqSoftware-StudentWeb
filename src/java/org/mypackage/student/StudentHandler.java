@@ -10,7 +10,7 @@ import java.time.Period;
 public class StudentHandler {
 
     private String name;
-    private String birthDate;  // ← ahora es String
+    private String birthDate;  
 
     public StudentHandler() {
         name = null;
