@@ -30,7 +30,7 @@
     <br><br>
 
     <input type="submit" value="Enviar" />
-
+    <a href="/img/imagen-santafe.jpg"></a></center>
 </form>
 </center>
 </body>
