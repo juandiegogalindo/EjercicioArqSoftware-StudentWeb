@@ -53,3 +53,7 @@ Se logró implementar una aplicación web funcional basada en JSP, comprendiendo
 Este ejercicio permite sentar bases sólidas para el desarrollo de aplicaciones web con tecnologías Java.
 
 ---
+
+## Imagen de Referencia:
+
+<img width="995" height="600" alt="image" src="https://github.com/user-attachments/assets/f24c301e-c7f3-4e88-9d73-15b4be27885f" />
