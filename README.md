@@ -5,7 +5,7 @@ Este proyecto consiste en el desarrollo de una aplicación web utilizando **Java
 
 ---
 
-## Objetivo
+## Objetivo:
 Implementar una aplicación web básica basada en JSP que permita:
 
 - Comprender el funcionamiento de JSP dentro de un servidor web.
@@ -28,3 +28,17 @@ Implementar una aplicación web básica basada en JSP que permita:
 - CSS3
 
 ---
+
+## Ejecucion del Programa:
+
+1. Abrir el proyecto en NetBeans.
+2. Ejecutar **Clean and Build**.
+3. Ejecutar el proyecto.
+4. Acceder desde navegador:
+
+```
+http://localhost:8080/NombreDelProyecto/
+```
+
+---
+
