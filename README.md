@@ -42,3 +42,14 @@ http://localhost:8080/NombreDelProyecto/
 
 ---
 
+## Conclusiones:
+Se logró implementar una aplicación web funcional basada en JSP, comprendiendo:
+
+- La conversión de JSP a Servlets.
+- El manejo de datos en aplicaciones web.
+- La integración de lógica Java con presentación.
+- El uso de JSTL para control de flujo.
+
+Este ejercicio permite sentar bases sólidas para el desarrollo de aplicaciones web con tecnologías Java.
+
+---
