@@ -21,7 +21,6 @@ Implementar una aplicación web básica basada en JSP que permita:
 - Java (JDK 8+)
 - JSP (JavaServer Pages)
 - JavaBeans
-- JSTL (JSP Standard Tag Library)
 - Apache Tomcat 9
 - NetBeans IDE
 - HTML5
